@@ -11,17 +11,13 @@ import com.spring.crm.dao.CustomerDAO;
 import com.spring.crm.entity.Customer;
 
 @Controller
-@RequestMapping("/")
+@RequestMapping("customer")
 public class CustomerController {
 	
 	// INJECT DAO IN THIS CONTROLLER
 	@Autowired
 	private CustomerDAO customerDAO;
-	
-	
-	
-	
-	@RequestMapping("/")
+	@RequestMapping("list")
 	public String lists(Model model) {
 		
 		// GET CUSTOMERS FROM DAO
