@@ -58,3 +58,10 @@ tr:nth-child(odd) {background: #fec9dd}
 	color: rgb(252,65,135);
 	background: #FFFFFF;
 }
+
+a{
+	font-family:sans-serif;
+	font-weight:800;
+	font-size:8px;
+	color:rgb(252,65,135);
+}
