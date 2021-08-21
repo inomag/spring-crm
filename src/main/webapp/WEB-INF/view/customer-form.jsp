@@ -33,9 +33,9 @@
 						<td><form:input path="email"/></td>			
 					</tr>
 					
-					<tr>
+					<tr >
 						<td></td>
-						<td><input type="submit" value="Save Customer" class="save"/></td>			
+						<td><input id="submitBtn"  type="submit" value="Save Customer" class="save"/></td>			
 					</tr>
 				
 				

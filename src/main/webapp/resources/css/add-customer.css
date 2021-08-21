@@ -9,10 +9,53 @@ body{
 	align-items: center;
 	justify-content: center;
 	font-family:sans-serif;
+	background:#fee2ed;
+	padding:20px;
 }
 
 h2{
 	color: rgb(252,65,135);
 	font-size: 20px;
-	
+	margin-bottom:30px;
+}
+
+label{
+	font-size: 12px;
+	font-family:sans-serif;
+	color:rgb(252,65,135);
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+input{
+	background-color: #fec9dd;
+	font-size:12px;
+	font-weight: bold;
+	padding: 4px;
+	font-family:sans-serif;
+	border:1px solid #fec9dd;
+	box-shadow: 2px 2px rgb(252,65,135);
+}
+
+#submitBtn{
+	margin-top:10px;
+	margin-bottom: 40px;
+	border:1px solid #fec9dd;
+	box-shadow: 2px 2px rgb(252,65,135);
+	cursor:pointer; 
+	font-size: 12px;
+	font-family: sans-serif;
+	padding: 8px 12px; 
+	margin-left: auto;
+	margin-right: auto;
+	color: rgb(252,65,135);
+	background: #FFFFFF;
+	font-weight: bold;
+}
+
+a{
+	font-size:12px;
+	font-style:italic;
+	font-weight:bold;
+	color:rgb(252,65,135);
 }

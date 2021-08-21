@@ -25,8 +25,8 @@ public class CustomerDAOImpl implements CustomerDAO {
 		// GET CURRENT HIBERNATE SESSION
 		Session session = factory.getCurrentSession();
 		
-		// CREATE QUERY
-		Query query = session.createQuery("FROM Customer", Customer.class);
+		// CREATE QUERY....SORT BY LASTNAME
+		Query query = session.createQuery("FROM Customer ORDER BY lastName", Customer.class);
 		
 		// GET LIST OF CUSTOMERS
 		List<Customer> list = query.getResultList();
