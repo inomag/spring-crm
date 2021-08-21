@@ -20,12 +20,10 @@ public class CustomerDAOImpl implements CustomerDAO {
 	private SessionFactory factory;
 	
 	@Override
-	@Transactional
 	public List<Customer> getCustomers() {
 		
 		// GET CURRENT HIBERNATE SESSION
 		Session session = factory.getCurrentSession();
-		
 		
 		// CREATE QUERY
 		Query query = session.createQuery("FROM Customer", Customer.class);

@@ -1,0 +1,18 @@
+@charset "ISO-8859-1";
+
+body{
+	margin: 50px;
+}
+
+#container{
+	display: block;
+	align-items: center;
+	justify-content: center;
+	font-family:sans-serif;
+}
+
+h2{
+	color: rgb(252,65,135);
+	font-size: 20px;
+	
+}
