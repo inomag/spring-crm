@@ -16,7 +16,7 @@
 	
 		<h2>CRM - Customer Relationship Manager</h2>
 		
-		<form:form action="saveCustomer" modelAttribute="customer" method="POST">
+		<form:form action="save" modelAttribute="customer" method="POST">
 		
 			<table>
 				<tbody>
